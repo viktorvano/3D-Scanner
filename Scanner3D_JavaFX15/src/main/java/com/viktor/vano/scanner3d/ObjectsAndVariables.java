@@ -19,13 +19,6 @@ public class ObjectsAndVariables {
     public static SerialPort[] serialPorts;
     public static ChoiceBox<String> choiceBoxSerialPorts;
     public static Button btnConnect;
-    public static Label labelFile, labelFileSize, labelFileSizeBar, labelFlashProgress;
-    public static FileChooser fileChooser;
-    public static Stage stageReference;
-    public static File file;
-    public static long fileSize = 0, readChars = 0;
-    public static ProgressBar progressBarMemory, progressBarFlashedApp;
-    public static byte[] binaryContent;
 
     public static Button btnRender, btnScan;
     public static final BorderPane borderPane = new BorderPane();
