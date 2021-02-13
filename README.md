@@ -4,3 +4,9 @@
 ## Wiring Diagram
   
 ![alt text](https://raw.githubusercontent.com/viktorvano/STM32-Bootloader/master/images/STM32F103C8T6_Bottom.jpg?raw=true)  
+  
+  
+#### ToF library  
+  
+I have mofified this arduino library of ToF module for a STM32 (credit goes to original author Larry Bank):  
+https://github.com/pololu/vl53l0x-arduino
