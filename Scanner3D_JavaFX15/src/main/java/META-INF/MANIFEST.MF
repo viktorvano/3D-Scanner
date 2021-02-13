@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: com.viktor.vano.scanner3d.App
+
