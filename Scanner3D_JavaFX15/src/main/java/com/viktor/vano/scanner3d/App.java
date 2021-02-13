@@ -421,7 +421,8 @@ public class App extends Application {
     @Override
     public void stop() throws Exception {
         super.stop();
-        myThread.stopThread();
+        if(myThread != null)
+            myThread.stopThread();
         if(btnConnect.getText().equals("Disconnect"))
             disconnectFromSerialPort();
     }
